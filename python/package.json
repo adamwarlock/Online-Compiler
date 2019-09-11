@@ -1,0 +1,16 @@
+{
+  "name": "python",
+  "version": "1.0.0",
+  "description": "Backend server to execute python code",
+  "main": "python_index.js",
+  "scripts": {
+    "start" : "node python_index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"compilex":"^0.7.4",
+	"express":"^4.17.1"
+  
+  }
+}

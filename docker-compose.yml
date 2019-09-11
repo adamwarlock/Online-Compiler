@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  c:
+        image: cdkimg:1.0
+        container_name: c_1
+        ports: 
+          - 81:80
+  java:
+        image: javadkimg:1.0
+        container_name: j_1
+        ports: 
+          - 82:80
+  python:
+        image: pydkimg:1.0
+        container_name: p_1
+        ports: 
+          - 83:80
+  home:
+        image: hmimg:1.0
+        container_name: h_1
+        ports: 
+          - 84:80
+  haproxy:
+        build: ./haproxy
+        container_name: haproxy
+        ports: 
+          - 80:80      

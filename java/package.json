@@ -1,0 +1,16 @@
+{
+  "name": "java",
+  "version": "1.0.0",
+  "description": "Backend server to execute java code",
+  "main": "java_index.js",
+  "scripts": {
+    "start" : "node java_index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"compilex":"^0.7.4",
+	"express":"^4.17.1"
+  
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "home_server",
+  "version": "1.0.0",
+  "description": "Home server that loads landing page",
+  "main": "home_index.js",
+  "scripts": {
+    "start" : "node home_index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  
+	"express":"^4.17.1"
+  
+  }
+}
